@@ -7,5 +7,5 @@
 ?>
 
 <div class="bg-danger text-white text-right p-2 link-top">
-    Usuário: <?php echo $_SESSION['usuario']?> (Administrador) | <a href="?p=logout">Logout</a>
+    Usuário: <?php echo $_SESSION['usuario']?> (ADM) | <a href="?p=logout">Logout</a>
 </div>
