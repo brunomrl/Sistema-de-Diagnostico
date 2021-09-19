@@ -9,15 +9,23 @@
 </div>
   
   <div class="form-row">
+
     <div class="form-group col-md-6">
       <label for="inputcpf">CPF</label>
       <input type="text" class="form-control" id="cpf" name="text_cpf" placeholder="Digite seu CPF">
     </div>
 
-    <div class="form-group col-md-6">
+    <div class="form-group col-md-3">
       <label for="inputEmail4">Email</label>
       <input type="email" class="form-control" id="email" name="text_email"  placeholder="Email">
     </div>
+  
+
+    <div class="form-group col-md-3">
+      <label for="inputEmail4">Idade</label>
+      <input type="text" class="form-control" id="email" name="text_idade"  placeholder="Digite sua Idade">
+    </div>
+
   </div>
 
   <div class="form-row">
