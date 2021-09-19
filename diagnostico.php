@@ -10,6 +10,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
     $sintoma1 = $_POST['text_sintoma1'];
     $sintoma2 = $_POST['text_sintoma2'];
     $sintoma3 = $_POST['text_sintoma3'];
+    $idade = $_POST['text_idade'];
 
     include 'gestor.php';
     $gestor = new Gestor();
@@ -27,6 +28,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
         ':email' => $email,
         ':nome' => $nome,
         ':cpf' => $cpf,
+        ':idade' => $idade,
         ':cidade' => $cidade,
         ':estado' => $estado,
         ':cep' => $cep,
@@ -37,7 +39,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
       );
 
        
-    $gestor -> EXE_NON_QUERY("INSERT INTO paciente VALUES(0, :email, :nome, :cpf, :cidade, :estado, :cep,:sintoma1,
+    $gestor -> EXE_NON_QUERY("INSERT INTO paciente VALUES(0, :email, :nome, :cpf, :idade, :cidade, :estado, :cep,:sintoma1,
     :sintoma2, :sintoma3, :diagnostico)",$params);
 }
 
