@@ -1,0 +1,1 @@
+<div class='container-fluid fundo-footer fixed-bottom text-center p-2'>SISTEMA DE DIAGNÓSTICO VIRTUAL</div>

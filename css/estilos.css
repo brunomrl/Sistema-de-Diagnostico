@@ -1,0 +1,48 @@
+.fundo-nav{
+    background-color:#272343;
+    color: rgb(196, 183, 1);
+}
+
+.fundo-footer{
+    background-color: #272343;
+    color: #c4b701;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.link-topo a{
+    color: #ffffff;
+    margin-left: 50px;
+    font-size: 1.3em;
+}
+
+.link-topo a:hover{
+    text-decoration: none;
+    color: rgb(179, 218, 5);
+}
+
+.link-top a{
+    color: #ffffff;
+    font-size: 1em;
+}
+
+.link-top a:hover{
+    text-decoration: none;
+    color: rgb(179, 218, 5);
+}
+
+.slider{
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+}
+
+.fonte_erro{
+    color: rgba(0, 0, 0, 0.336);
+    font-size: small;
+}
+
+.fonte_erro2{
+    color: rgb(255, 0, 0);
+    font-size: small;
+}
