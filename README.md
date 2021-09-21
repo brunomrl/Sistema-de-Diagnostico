@@ -17,8 +17,12 @@ Meu primeiro projeto utilizando ferramentas de desenvolvimento WEB. O principal 
 * PHP
 * Composer
 * PHPMailer
-* Jquery
+* JQuery
 * MySQL
+
+![Animação1](https://user-images.githubusercontent.com/90878483/134258716-d83f6388-b451-4deb-b939-ae087aefc381.gif)
+![Animação2](https://user-images.githubusercontent.com/90878483/134258718-266aa6a8-0cc5-4aa3-8fb7-02634abe3051.gif)
+
 
 
 ---
